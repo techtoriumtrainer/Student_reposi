@@ -1,0 +1,34 @@
+* {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+body {
+  background-image: url("images/background.jpg")
+}
+
+.row h1 {
+  height: 4rem;
+  transform: translateX(-2%);
+}
+
+.column h5 {
+  overflow-y: hidden;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.divider {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
